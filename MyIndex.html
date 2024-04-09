@@ -1,0 +1,142 @@
+<!-- 
+Ctrl+Alt+Down       Multiple selections (multi-cursor)
+Ctrl+Alt+Up         Multiple selections (multi-cursor)
+Shift+Alt           Column (box) selection
+Shift+Alt+Left      Shrink/expand selection
+Shift+Alt+Right     Shrink/expand selection
+Ctrl+'/'            Switch to comment
+-->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>HTML test</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <meta property="og:title" content="Example Page">
+    <meta property="og:image" content="https://example.com/images/image.jpg">
+    <meta property="og:description" content="This is just an example page.">
+
+    <style>
+        .header {
+            color: blueviolet;
+            border: 5px dotted chartreuse;
+            text-align: center;
+        }
+        
+        #forename_id {
+            background-color: yellow;
+        }
+        
+        .red {
+            color: red;
+        }
+    </style>
+
+</head>
+
+<!--
+    <header> is better than <div class="header"> specially in seo
+    <nav>       ...
+    <section>   ...
+    <article>   ...
+    <figure>    ...
+    <footer>    ...
+-->
+
+<body>
+
+    <h1 class="header">Hello World!</h1>
+    <br>
+    <div>Demo Text, with <span class="red">some other</span> text.</div>
+    <br>
+    <form action="#">
+        <label for="forename_id">Enter Your Name</label>
+        <input type="text" name="forename" id="forename_id">
+        <br>
+        <label for="category_id">Gender</label>
+        <select name="category" id="category_id">
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+        </select>
+        <br>
+        <label>Marital:</label>
+        <label>
+            Maried
+            <input type="radio" name="marital" id="maried_id">
+        </label>
+        <label>
+            Single
+            <input type="radio" name="marital" id="single_id">
+        </label>
+        <br>
+        <label for="date_id">Enter Date:</label>
+        <input type="date" name="date_name" id="date_id">
+        <br>
+        <label for="view_id">Write</label>
+        <textarea name="viewpoint" id="view_id" cols="30" rows="10"></textarea>
+        <br>
+        <label for="username_id">Enter Your Username:</label>
+        <input type="text" name="username" id="username_id">
+        <br>
+        <label for="email_id">Enter Your Email:</label>
+        <input type="email" name="email" id="email_id" value="@yahoo.com">
+        <br>
+        <label for="password_id">Enter Your Password:</label>
+        <input type="password" name="password" id="password_id" placeholder="just number">
+        <br>
+        <label for="">
+            Remember Me
+            <input type="checkbox" name="remember" id="remember_id">
+        </label>
+        <br>
+        <input type="submit" value="Send">
+        <button type="submit">Send</button>
+    </form>
+    <br>
+    <h1>Rocket.ir</h1>
+    <h2>Rocket.ir</h2>
+    <h3>Rocket.ir</h3>
+    <h4>Rocket.ir</h4>
+    <h5>Rocket.ir</h5>
+    <h6>Rocket.ir</h6>
+    <p> Lorem ipsum dolor, sit amet <em>consectetur</em> <strong>adipisicing</strong> elit. Amet, maxime beatae. <br>Laboriosam temporibus cumque, ab sed maiores molestiae. Maiores ipsum natus in perspiciatis, tempora nisi rem ullam mollitia reiciendis nostrum.</p>
+    <hr>
+    <br>
+    <!--
+    <iframe src="https://www.digikala.com/" height="500em" width="950em" frameborder="0"></iframe>
+    -->
+    <br>
+
+
+    <video src="./vid.mp4" controls height="200" width="350" poster=".\logo.svg">
+        Learning HTLM
+    </video>
+    <br>
+    <audio src="./music.mp3" controls></audio>
+    <br>
+    <a href="https://www.google.com/" target="_blank">Go to GOOGLE</a>
+    <br>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+    <br>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+    <br>
+    <img src="./S63.jpg" alt="S63 Cabriolet">
+</body>
+
+</html>
